@@ -98,7 +98,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
@@ -138,9 +138,78 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 0 0;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin-top: 35px;
+    color: black;
+}
+
+.navigation .logo {
+    margin-top: 10px;
+}
+
+div.nav-img {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo {
+    margin-left: -35px;
+}
+
+.boxes .box.box1 {
+    background-color: #008081;
+}
+
+.boxes .box.box2 {
+    background-color: #fed700;
+}
+
+.boxes .box.box3 {
+    background-color: #5e9ea0;
+}
+
+.boxes .box.box4 {
+    background-color: #ff7f50;
+}
+
+.boxes .box.box5 {
+    background-color: #dc143b;
+}
+
+.boxes .box.box6 {
+    background-color: #228b22;
+}
+
+.boxes .box.box7 {
+    background-color: #9931cc;
+}
+
+.boxes .box.box8 {
+    background-color: #ff69b3;
+}
+
+.boxes .box.box9 {
+    background-color: #4b0081;
+}
+
+.boxes .box.box10 {
+    background-color: #1e90ff;
+}
+
